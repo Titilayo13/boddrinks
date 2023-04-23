@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body .wholesection nav {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+}
+body .wholesection nav .navwrapper {
+  height: 120px;
+  max-width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+body .wholesection nav .navwrapper img {
+  height: 50px;
+}
+body .wholesection nav .navwrapper ul {
+  gap: 50px;
+  font-size: 12px;
+}
+body .wholesection nav .navwrapper ul li {
+  list-style-type: none;
+}
+body .wholesection nav .navwrapper ul li a {
+  text-decoration: none;
+  color: black;
+}
+body .wholesection nav .navwrapper ul li i {
+  font-size: 25px;
+}
+body .wholesection nav .navwrapper ul li:hover {
+  color: #63cddb;
+}
+body .wholesection nav .navwrapper ul li:hover a:hover {
+  color: #63cddb;
+}
