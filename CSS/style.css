@@ -83,3 +83,49 @@ body .wholesection .herosection .buttoon:hover {
   color: white;
   transition: 0.4s ease;
 }
+body .wholesection .herootwo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+body .wholesection .herootwo img {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .wholesection .herootwo .herootwoA {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  padding: 8% 0;
+  background-color: #63cddb;
+  padding-left: 20%;
+}
+body .wholesection .herootwo .herootwoA h1 {
+  color: white;
+}
+body .wholesection .herootwo .herootwoA p {
+  width: 77%;
+  color: white;
+  line-height: 25px;
+  margin-top: 10%;
+  margin-bottom: 30%;
+}
+body .wholesection .herootwo .herootwoA a {
+  border: 3px solid white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0;
+  color: white;
+}
+body .wholesection .herootwo .herootwoA a:hover {
+  color: #63cddb;
+  transition: 0.5s ease;
+  background-color: white;
+}
