@@ -6,13 +6,14 @@ body{
     .wholesection{
         nav{
             background-color: white;
-            position: sticky;
-            top: 0px;
+            // position: relative;
             .navwrapper{
                 height: 120px;
                 max-width: 95%;
                 margin: 0 auto;
                 justify-content: space-between;
+                // position: sticky;
+                    // top: 0px;
                 // align-items: center;
                 img{
                     height: 50px;
@@ -39,6 +40,59 @@ body{
                    }
                 }
         }
+    }
+    .herosection{
+        position: relative;
+        height: 100%;
+        .carousel-fade{
+           position: absolute;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+                // transition: 1s ease-in;
+            .carousel-item{
+                img{
+                    width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        // transition: 0.5s ease-in;
+                }
+            }
+                 }
+                 .herotext{
+                    position: absolute;
+                        top: 28%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        // text-align: center;
+                        z-index: 2;
+                        p{
+                            width: 45%;
+                            font-size: 15px;
+                            line-height: 25px;
+                        }
+                 }
+                 .buttoon{
+                    position: absolute;
+                    bottom: 15%;
+                    left: 25%;
+                    font-weight: bold;
+                    z-index: 3;
+                    color: #63cddb;
+                    outline: 0;
+                    border: 3px solid #63cddb;
+                    background-color: transparent;
+                    width: 130px;
+                    height: 40px;
+
+                 }
+                 .buttoon:hover{
+                    background-color: #59bac7;
+                    color: white;
+                    transition: 0.4s ease;
+                 }
     }
 }
 }

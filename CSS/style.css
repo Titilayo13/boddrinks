@@ -5,8 +5,6 @@
 
 body .wholesection nav {
   background-color: white;
-  position: sticky;
-  top: 0px;
 }
 body .wholesection nav .navwrapper {
   height: 120px;
@@ -36,4 +34,52 @@ body .wholesection nav .navwrapper ul li:hover {
 }
 body .wholesection nav .navwrapper ul li:hover a:hover {
   color: #63cddb;
+}
+body .wholesection .herosection {
+  position: relative;
+  height: 100%;
+}
+body .wholesection .herosection .carousel-fade {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+body .wholesection .herosection .carousel-fade .carousel-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .wholesection .herosection .herotext {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+body .wholesection .herosection .herotext p {
+  width: 45%;
+  font-size: 15px;
+  line-height: 25px;
+}
+body .wholesection .herosection .buttoon {
+  position: absolute;
+  bottom: 15%;
+  left: 25%;
+  font-weight: bold;
+  z-index: 3;
+  color: #63cddb;
+  outline: 0;
+  border: 3px solid #63cddb;
+  background-color: transparent;
+  width: 130px;
+  height: 40px;
+}
+body .wholesection .herosection .buttoon:hover {
+  background-color: #59bac7;
+  color: white;
+  transition: 0.4s ease;
 }
