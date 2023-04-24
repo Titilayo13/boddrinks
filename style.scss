@@ -142,5 +142,45 @@ body{
             }
         }
     }
+    .recipe{
+        height: 80%;
+        .recipeA{
+            width: 50%;
+            height: 100%;
+            // background-color: #eeeeee;
+   
+            img{   
+                height: 100%;
+                width: 100%;
+
+            }
+        }
+        .recipeB{
+            background-color: #facc75;
+            width: 50%;
+                height: 100%;
+                padding: 15% 10%;
+                h1{
+                    color: white;
+                    margin-bottom: 15%;
+                }
+                a{
+                
+                border: 3px solid white;
+                // width: 130px;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-weight: bold;
+                border-radius: 0;
+                color: white;
+
+            }
+            a:hover{
+                color: #facc75;
+                transition: 0.5s ease;
+                background-color: white;
+            }
+        }
+    }
 }
 }

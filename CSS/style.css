@@ -129,3 +129,37 @@ body .wholesection .herootwo .herootwoA a:hover {
   transition: 0.5s ease;
   background-color: white;
 }
+body .wholesection .recipe {
+  height: 80%;
+}
+body .wholesection .recipe .recipeA {
+  width: 50%;
+  height: 100%;
+}
+body .wholesection .recipe .recipeA img {
+  height: 100%;
+  width: 100%;
+}
+body .wholesection .recipe .recipeB {
+  background-color: #facc75;
+  width: 50%;
+  height: 100%;
+  padding: 15% 10%;
+}
+body .wholesection .recipe .recipeB h1 {
+  color: white;
+  margin-bottom: 15%;
+}
+body .wholesection .recipe .recipeB a {
+  border: 3px solid white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0;
+  color: white;
+}
+body .wholesection .recipe .recipeB a:hover {
+  color: #facc75;
+  transition: 0.5s ease;
+  background-color: white;
+}
