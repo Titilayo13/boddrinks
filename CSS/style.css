@@ -3,36 +3,42 @@
   padding: 0;
 }
 
-body .wholesection nav {
+body .wholesection .navsection {
+  position: relative;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+body .wholesection .navsection nav {
   background-color: white;
 }
-body .wholesection nav .navwrapper {
+body .wholesection .navsection nav .navwrapper {
   height: 120px;
   max-width: 95%;
   margin: 0 auto;
   justify-content: space-between;
 }
-body .wholesection nav .navwrapper img {
+body .wholesection .navsection nav .navwrapper img {
   height: 50px;
 }
-body .wholesection nav .navwrapper ul {
+body .wholesection .navsection nav .navwrapper ul {
   gap: 50px;
   font-size: 12px;
 }
-body .wholesection nav .navwrapper ul li {
+body .wholesection .navsection nav .navwrapper ul li {
   list-style-type: none;
 }
-body .wholesection nav .navwrapper ul li a {
+body .wholesection .navsection nav .navwrapper ul li a {
   text-decoration: none;
   color: black;
 }
-body .wholesection nav .navwrapper ul li i {
+body .wholesection .navsection nav .navwrapper ul li i {
   font-size: 25px;
 }
-body .wholesection nav .navwrapper ul li:hover {
+body .wholesection .navsection nav .navwrapper ul li:hover {
   color: #63cddb;
 }
-body .wholesection nav .navwrapper ul li:hover a:hover {
+body .wholesection .navsection nav .navwrapper ul li:hover a:hover {
   color: #63cddb;
 }
 body .wholesection .herosection {
@@ -233,9 +239,31 @@ body .wholesection .instagram .instagramwrapper a {
 }
 body .wholesection footer {
   background-color: #63cddb;
+  margin-top: 17%;
 }
 body .wholesection footer .footerwrapper {
-  max-width: 50%;
+  max-width: 30%;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  padding: 40px 0;
+}
+body .wholesection footer .footerwrapper h3 {
+  font-weight: 900;
+}
+body .wholesection footer .footerwrapper form {
+  width: 100%;
+}
+body .wholesection footer .footerwrapper .icondiv {
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+body .wholesection footer .footerwrapper .icondiv i {
+  color: white;
+  font-size: 28px;
+  margin: 0 5px;
 }

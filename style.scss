@@ -4,16 +4,19 @@
 }
 body{
     .wholesection{
+        .navsection{
+            position: relative;
+            position: sticky;
+                top: 0px;
+            z-index: 10;
         nav{
             background-color: white;
-            // position: relative;
             .navwrapper{
                 height: 120px;
                 max-width: 95%;
                 margin: 0 auto;
                 justify-content: space-between;
-                // position: sticky;
-                    // top: 0px;
+               
                 // align-items: center;
                 img{
                     height: 50px;
@@ -41,6 +44,7 @@ body{
                 }
         }
     }
+        }
     .herosection{
         position: relative;
         height: 100%;
@@ -51,6 +55,7 @@ body{
             overflow: hidden;
             top: 0;
             left: 0;
+            // z-index: 5;
                 // transition: 1s ease-in;
             .carousel-item{
                 img{
@@ -272,13 +277,33 @@ body{
     }
          footer {
              background-color: #63cddb;
+             margin-top: 17%;
     
              .footerwrapper {
-                 max-width: 50%;
+                 max-width: 30%;
                  margin: 0 auto;
                  text-align: center;
+                 display: flex;
+                 flex-direction: column;
+                 gap: 50px;
+                 justify-content: center;
+                 padding: 40px 0;
                 //  margin-left: 50%;
-               
+                h3{
+                    font-weight: 900;
+                }
+                form{
+                    width: 100%;
+                }
+                .icondiv{
+                    text-align: center;
+                    justify-content: center;
+                    color: white;
+               i{
+                color: white;
+                font-size: 28px;
+                margin: 0 5px;
+               }}
              }
          }
 }
