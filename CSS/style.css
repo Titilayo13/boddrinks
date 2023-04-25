@@ -3,11 +3,91 @@
   padding: 0;
 }
 
+body .storysection .navsection {
+  position: relative;
+  z-index: 999;
+}
+body .storysection .navsection nav {
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  z-index: 999;
+  top: 0px;
+}
+body .storysection .navsection nav .navwrapper {
+  height: 120px;
+  max-width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+body .storysection .navsection nav .navwrapper img {
+  height: 50px;
+}
+body .storysection .navsection nav .navwrapper ul {
+  gap: 50px;
+  font-size: 12px;
+}
+body .storysection .navsection nav .navwrapper ul li {
+  list-style-type: none;
+}
+body .storysection .navsection nav .navwrapper ul li a {
+  text-decoration: none;
+  color: black;
+}
+body .storysection .navsection nav .navwrapper ul li a:active {
+  color: #63cddb;
+  border-bottom: 2px solid #63cddb;
+}
+body .storysection .navsection nav .navwrapper ul li i {
+  font-size: 25px;
+}
+body .storysection .navsection nav .navwrapper ul li:hover {
+  color: #63cddb;
+}
+body .storysection .navsection nav .navwrapper ul li:hover a:hover {
+  color: #63cddb;
+}
+body .storysection .herostorysect {
+  position: relative;
+}
+body .storysection .herostorysect div {
+  width: 27%;
+  padding: 50px 40px;
+  text-align: center;
+  position: absolute;
+  bottom: 8%;
+  opacity: 0.8;
+  left: 20%;
+  background-color: #63cddb;
+}
+body .storysection .herostorysect div p {
+  font-size: 3rem;
+  font-weight: bold;
+  width: 100%;
+  color: black;
+}
+body .storysection .herostory2 .herostory2wrap {
+  max-width: 70%;
+  margin: 0 auto;
+}
+body .storysection .herostory2 .herostory2wrap div {
+  padding-left: 70px;
+}
+body .storysection .herostory2 .herostory2wrap div p {
+  width: 83%;
+  line-height: 17px;
+  font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body .wholesection .navsection {
   position: relative;
   position: sticky;
   top: 0px;
-  z-index: 10;
+  z-index: 50;
 }
 body .wholesection .navsection nav {
   background-color: white;
@@ -31,6 +111,10 @@ body .wholesection .navsection nav .navwrapper ul li {
 body .wholesection .navsection nav .navwrapper ul li a {
   text-decoration: none;
   color: black;
+}
+body .wholesection .navsection nav .navwrapper ul li a:active {
+  color: #63cddb;
+  border-bottom: 2px solid #63cddb;
 }
 body .wholesection .navsection nav .navwrapper ul li i {
   font-size: 25px;
