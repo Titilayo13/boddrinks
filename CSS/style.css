@@ -65,9 +65,19 @@ body .storysection .herostorysect div p {
   width: 100%;
   color: black;
 }
+body .storysection .herostory2 {
+  position: relative;
+}
+body .storysection .herostory2 .watermelon {
+  position: absolute;
+  top: 67%;
+  right: 25%;
+  transform: translate(-50% -50%);
+}
 body .storysection .herostory2 .herostory2wrap {
   max-width: 70%;
   margin: 0 auto;
+  align-items: center;
 }
 body .storysection .herostory2 .herostory2wrap div {
   padding-left: 70px;
@@ -76,6 +86,35 @@ body .storysection .herostory2 .herostory2wrap div p {
   width: 83%;
   line-height: 17px;
   font-size: 15px;
+}
+body .storysection footer {
+  background-color: #63cddb;
+}
+body .storysection footer .footerwrapper {
+  max-width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  padding: 40px 0;
+}
+body .storysection footer .footerwrapper h3 {
+  font-weight: 900;
+}
+body .storysection footer .footerwrapper form {
+  width: 100%;
+}
+body .storysection footer .footerwrapper .icondiv {
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+body .storysection footer .footerwrapper .icondiv i {
+  color: white;
+  font-size: 28px;
+  margin: 0 5px;
 }
 
 * {

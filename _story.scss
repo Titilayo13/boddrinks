@@ -73,20 +73,24 @@ body{
                     font-weight: bold;
                     width: 100%;
                     color: black;
-                    
             }
         }
       }
       .herostory2{
+        position: relative;
+        .watermelon{
+            position: absolute;
+            top: 67%;
+            right: 25%;
+            transform: translate(-50% -50%);
+        }
         .herostory2wrap{
             max-width: 70%;
             margin: 0 auto;
-            
+            align-items: center;
             // background-color: #63cddb;
             div{
-                
                 padding-left: 70px;
-               
                 p{
                     width: 83%;
                     line-height: 17px;
@@ -95,5 +99,39 @@ body{
             }
         }
       }
+       footer {
+             background-color: #63cddb;
+            //  margin-top: 17%;
+            // position: relative;
+            
+             .footerwrapper {
+                 max-width: 30%;
+                 margin: 0 auto;
+                 text-align: center;
+                 display: flex;
+                 flex-direction: column;
+                 gap: 50px;
+                 justify-content: center;
+                 padding: 40px 0;
+                // position: fixed;
+                    // bottom: 0px;
+                //  margin-left: 50%;
+                h3{
+                    font-weight: 900;
+                }
+                form{
+                    width: 100%;
+                }
+                .icondiv{
+                    text-align: center;
+                    justify-content: center;
+                    color: white;
+               i{
+                color: white;
+                font-size: 28px;
+                margin: 0 5px;
+               }}
+             }
+         }
     }
 }
