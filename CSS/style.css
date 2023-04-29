@@ -122,80 +122,38 @@ body .storysection footer .footerwrapper .icondiv i {
   padding: 0;
 }
 
-body .shopsection .navsection {
-  position: relative;
-  position: sticky;
-  top: 0px;
-  z-index: 50;
-}
-body .shopsection .navsection nav {
-  background-color: white;
-}
-body .shopsection .navsection nav .navwrapper {
-  height: 120px;
-  max-width: 95%;
-  margin: 0 auto;
-  justify-content: space-between;
-}
-body .shopsection .navsection nav .navwrapper img {
-  height: 50px;
-}
-body .shopsection .navsection nav .navwrapper ul {
-  gap: 50px;
-  font-size: 12px;
-}
-body .shopsection .navsection nav .navwrapper ul li {
-  list-style-type: none;
-}
-body .shopsection .navsection nav .navwrapper ul li a {
-  text-decoration: none;
-  color: black;
-}
-body .shopsection .navsection nav .navwrapper ul li a:active {
-  color: #63cddb;
-  border-bottom: 2px solid #63cddb;
-}
-body .shopsection .navsection nav .navwrapper ul li i {
-  font-size: 25px;
-}
-body .shopsection .navsection nav .navwrapper ul li:hover {
-  color: #63cddb;
-}
-body .shopsection .navsection nav .navwrapper ul li:hover a:hover {
-  color: #63cddb;
-}
-body .shopsection .shophero .shopherowrap {
+body .wholesection .shophero .shopherowrap {
   max-width: 70%;
   margin: 5% auto;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p {
   align-items: center;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p a {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p a {
   color: black;
   text-decoration: none;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p span {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p span {
   font-size: 20px;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap {
   height: 350px;
   width: 48%;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap img:hover {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap img:hover {
   cursor: pointer;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap img:hover ~ .overlay {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap img:hover ~ .overlay {
   height: 50px;
   opacity: 1;
   visibility: visible;
   transition: all 1s ease;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap img {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap img {
   width: 100%;
   height: 100%;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap .overlay {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap .overlay {
   height: 0px;
   background-color: rgba(255, 255, 255, 0.6);
   width: 24%;
@@ -206,45 +164,53 @@ body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagew
   visibility: hidden;
   opacity: 0;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap .overlay h6 {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap .overlay h6 {
   padding: 15px;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap p {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap p {
   text-align: center;
 }
-body .shopsection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap p a {
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap p a {
   text-decoration: none;
   color: black;
 }
-body .shopsection footer {
-  background-color: #63cddb;
-  margin-top: 25%;
+
+* {
+  margin: 0;
+  padding: 0;
 }
-body .shopsection footer .footerwrapper {
-  max-width: 30%;
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  justify-content: center;
-  padding: 40px 0;
+
+body .wholesection .enquiry {
+  width: 100%;
+  height: 120vh;
 }
-body .shopsection footer .footerwrapper h3 {
-  font-weight: 900;
-}
-body .shopsection footer .footerwrapper form {
+body .wholesection .enquiry .enquirywrap {
+  position: relative;
+  height: 100%;
   width: 100%;
 }
-body .shopsection footer .footerwrapper .icondiv {
-  text-align: center;
-  justify-content: center;
-  color: white;
+body .wholesection .enquiry .enquirywrap .enquirywrap1 {
+  height: 80%;
+  margin-top: 10%;
+  width: 50%;
+  position: relative;
 }
-body .shopsection footer .footerwrapper .icondiv i {
-  color: white;
-  font-size: 28px;
-  margin: 0 5px;
+body .wholesection .enquiry .enquirywrap .enquirywrap1 .divopacity {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  z-index: 7;
+  left: 40%;
+}
+body .wholesection .enquiry .enquirywrap .enquirywrap1 img {
+  width: 100%;
+  height: 100%;
+}
+body .wholesection .enquiry .enquirywrap .enquirywrap2 {
+  background-color: #eb8383;
+  width: 50%;
+  height: 100%;
 }
 
 * {
