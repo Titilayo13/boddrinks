@@ -228,6 +228,11 @@ body .wholesection .enquiry .enquirywrap .enquirywrap2 h6 {
   padding: 0;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body .wholesection .navsection {
   position: relative;
   position: sticky;
