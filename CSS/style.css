@@ -333,8 +333,6 @@ body .wholesection .herosection .carousel-fade .carousel-item img {
 body .wholesection .herosection .herotext {
   position: absolute;
   top: 28%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   z-index: 2;
 }
 body .wholesection .herosection .herotext p {
