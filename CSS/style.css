@@ -228,6 +228,43 @@ body .wholesection .enquiry .enquirywrap .enquirywrap2 h6 {
   padding: 0;
 }
 
+body .wholesection .blogsection {
+  height: 100%;
+}
+body .wholesection .blogsection .blogwrapper {
+  max-width: 70%;
+  margin: 0 auto;
+}
+body .wholesection .blogsection .blogwrapper .blogwrapper1 {
+  width: 100%;
+  border: 1px solid #e6e6e7;
+}
+body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B {
+  width: 50%;
+  padding: 0 30px;
+}
+body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B a {
+  color: black;
+  text-decoration: none;
+}
+body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B .blogA {
+  display: flex;
+  align-items: center;
+}
+body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B .blogA img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B .blogA .blogA1 {
+  margin-top: 10px;
+  padding: 0 15px;
+}
+body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B .blogA .blogA1 p {
+  font-size: 14px;
+  line-height: 17px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -301,7 +338,6 @@ body .wholesection .herosection .herotext {
   z-index: 2;
 }
 body .wholesection .herosection .herotext p {
-  width: 45%;
   font-size: 15px;
   line-height: 25px;
 }
@@ -427,6 +463,7 @@ body .wholesection .instagram .instagramwrapper .imagewrapper {
 body .wholesection .instagram .instagramwrapper .imagewrapper .image-container {
   position: relative;
   cursor: pointer;
+  overflow: hidden;
 }
 body .wholesection .instagram .instagramwrapper .imagewrapper .image-container .image-text:hover {
   opacity: 1;
@@ -500,4 +537,70 @@ body .wholesection footer .footerwrapper .icondiv i {
   color: white;
   font-size: 28px;
   margin: 0 5px;
+}
+
+@media (max-width: 1000px) {
+  body .wholesection .herosection .herotext {
+    top: 35%;
+  }
+  body .wholesection .herosection .herotext p {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 30px;
+  }
+  body .wholesection .herootwo img {
+    display: none;
+  }
+  body .wholesection .herootwo .herootwoA {
+    width: 100%;
+  }
+  body .wholesection .herootwo .herootwoA p {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  body .wholesection .recipe {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+  }
+  body .wholesection .recipe .recipeA {
+    width: 100%;
+  }
+  body .wholesection .recipe .recipeB {
+    width: 100%;
+    text-align: center;
+  }
+  body .wholesection .instagram .instagramwrapper {
+    max-width: 85%;
+  }
+}
+@media (max-width: 900px) {
+  body .wholesection footer .footerwrapper {
+    max-width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  body .wholesection .instagram .instagramwrapper .imagewrapper {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (max-width: 400px) {
+  body .wholesection .herosection {
+    height: 120%;
+  }
+  body .wholesection .herosection .herotext {
+    top: 40%;
+  }
+  body .wholesection .instagram .instagramwrapper .imagewrapper {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+  body .wholesection .herootwo {
+    height: 120%;
+  }
+  body .wholesection .herootwo .herootwoA p {
+    font-size: 20px;
+    line-height: 40px;
+  }
 }

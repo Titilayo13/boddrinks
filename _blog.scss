@@ -2,3 +2,46 @@
     margin: 0;
     padding: 0;
 }
+body{
+    .wholesection{
+        .blogsection{
+            // background-color: aqua;
+            height: 100%;
+            .blogwrapper{
+                max-width: 70%;
+                margin: 0 auto;
+                .blogwrapper1{
+                    width: 100%;
+                    border: 1px solid #e6e6e7;
+                    .blogwrapper1B{
+                        width: 50%;
+                        padding: 0 30px;
+                        a{
+                            color: black;
+                            text-decoration: none;
+                        }
+                        .blogA{
+                            display: flex;
+                            align-items: center;
+                         
+                            img{
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 50%;
+                            }
+                            .blogA1{
+                                margin-top: 10px;
+                                padding:0 15px ;
+                                
+                                p{
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
