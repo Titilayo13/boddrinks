@@ -280,24 +280,25 @@ body .wholesection .navsection nav {
   background-color: white;
 }
 body .wholesection .navsection nav .navwrapper {
-  height: 120px;
+  height: 100px;
   max-width: 95%;
   margin: 0 auto;
-  justify-content: space-between;
 }
 body .wholesection .navsection nav .navwrapper img {
   height: 50px;
 }
 body .wholesection .navsection nav .navwrapper ul {
-  gap: 50px;
   font-size: 12px;
 }
 body .wholesection .navsection nav .navwrapper ul li {
   list-style-type: none;
+  font-weight: bold;
+  font-size: 11px;
 }
 body .wholesection .navsection nav .navwrapper ul li a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 body .wholesection .navsection nav .navwrapper ul li a:active {
   color: #63cddb;
@@ -333,9 +334,12 @@ body .wholesection .herosection .carousel-fade .carousel-item img {
 body .wholesection .herosection .herotext {
   position: absolute;
   top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 2;
 }
 body .wholesection .herosection .herotext p {
+  width: 45%;
   font-size: 15px;
   line-height: 25px;
 }
@@ -442,7 +446,6 @@ body .wholesection .instagram {
   margin: 5% 0;
 }
 body .wholesection .instagram .instagramwrapper {
-  max-width: 70%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -489,7 +492,7 @@ body .wholesection .instagram .instagramwrapper .imagewrapper .image-container .
   padding: 40px;
   line-height: 20px;
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: all 2s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -526,6 +529,12 @@ body .wholesection footer .footerwrapper h3 {
 body .wholesection footer .footerwrapper form {
   width: 100%;
 }
+body .wholesection footer .footerwrapper form .form-control {
+  border: 0;
+  border-bottom: 2px solid white;
+  border-radius: 0;
+  outline: 0;
+}
 body .wholesection footer .footerwrapper .icondiv {
   text-align: center;
   justify-content: center;
@@ -545,6 +554,7 @@ body .wholesection footer .footerwrapper .icondiv i {
     font-size: 20px;
     line-height: 40px;
     margin-top: 30px;
+    width: 80%;
   }
   body .wholesection .herootwo img {
     display: none;
@@ -568,13 +578,15 @@ body .wholesection footer .footerwrapper .icondiv i {
     width: 100%;
     text-align: center;
   }
-  body .wholesection .instagram .instagramwrapper {
-    max-width: 85%;
-  }
 }
 @media (max-width: 900px) {
   body .wholesection footer .footerwrapper {
     max-width: 50%;
+  }
+}
+@media (max-width: 700px) {
+  body .wholesection .herosection .herotext p {
+    width: 100%;
   }
 }
 @media (max-width: 800px) {
