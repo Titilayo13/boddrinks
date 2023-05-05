@@ -48,7 +48,7 @@ body .wholesection .herostory2 .herostory2wrap div p {
   font-size: 15px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   body .wholesection .herostory2 .herostory2wrap {
     max-width: 100%;
   }
@@ -58,6 +58,49 @@ body .wholesection .herostory2 .herostory2wrap div p {
     width: 35%;
     padding: 60px 40px;
     bottom: 6%;
+  }
+}
+@media (max-width: 1000px) {
+  body .wholesection .herostory2 .herostory2wrap img {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 900px) {
+  body .wholesection .herostorysect div {
+    width: 50%;
+    padding: 80px 30px;
+    bottom: 1%;
+  }
+}
+@media (max-width: 790px) {
+  body .wholesection .herostorysect div {
+    width: 70%;
+    padding: 80px 20px;
+    left: 15%;
+  }
+}
+@media (max-width: 600px) {
+  body .wholesection .herostorysect div {
+    width: 70%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 520px) {
+  body .wholesection .herostorysect div p {
+    font-size: 2rem;
+    padding-top: 100px;
+  }
+}
+@media (max-width: 375px) {
+  body .wholesection .herostorysect div p {
+    font-size: 1.5rem;
+    padding-top: 120px;
   }
 }
 * {
