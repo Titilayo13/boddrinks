@@ -276,41 +276,7 @@ body .wholesection .navsection {
   top: 0px;
   z-index: 50;
 }
-body .wholesection .navsection nav {
-  background-color: white;
-}
-body .wholesection .navsection nav .navwrapper {
-  height: 100px;
-  max-width: 95%;
-  margin: 0 auto;
-}
-body .wholesection .navsection nav .navwrapper img {
-  height: 50px;
-}
-body .wholesection .navsection nav .navwrapper ul {
-  font-size: 12px;
-}
-body .wholesection .navsection nav .navwrapper ul li {
-  list-style-type: none;
-  font-weight: bold;
-  font-size: 11px;
-}
-body .wholesection .navsection nav .navwrapper ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-body .wholesection .navsection nav .navwrapper ul li a:active {
-  color: #63cddb;
-  border-bottom: 2px solid #63cddb;
-}
-body .wholesection .navsection nav .navwrapper ul li i {
-  font-size: 25px;
-}
-body .wholesection .navsection nav .navwrapper ul li:hover {
-  color: #63cddb;
-}
-body .wholesection .navsection nav .navwrapper ul li:hover a:hover {
+body .wholesection .navsection nav div ul a:hover {
   color: #63cddb;
 }
 body .wholesection .herosection {
@@ -417,6 +383,8 @@ body .wholesection .recipe .recipeA {
 body .wholesection .recipe .recipeA img {
   height: 100%;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 body .wholesection .recipe .recipeB {
   background-color: #facc75;
@@ -472,6 +440,8 @@ body .wholesection .instagram .instagramwrapper .imagewrapper .image-container .
 body .wholesection .instagram .instagramwrapper .imagewrapper .image-container img {
   width: 100%;
   display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 300px;
 }
 body .wholesection .instagram .instagramwrapper .imagewrapper .image-container video {
