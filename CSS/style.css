@@ -3,53 +3,13 @@
   padding: 0;
 }
 
-body .storysection .navsection {
-  position: relative;
-  z-index: 998;
-}
-body .storysection .navsection nav {
-  background-color: rgb(255, 255, 255);
-  position: sticky;
-  z-index: 999;
-  top: 0px;
-}
-body .storysection .navsection nav .navwrapper {
-  height: 120px;
-  max-width: 95%;
-  margin: 0 auto;
-  justify-content: space-between;
-}
-body .storysection .navsection nav .navwrapper img {
-  height: 50px;
-}
-body .storysection .navsection nav .navwrapper ul {
-  gap: 50px;
-  font-size: 12px;
-}
-body .storysection .navsection nav .navwrapper ul li {
-  list-style-type: none;
-}
-body .storysection .navsection nav .navwrapper ul li a {
-  text-decoration: none;
-  color: black;
-}
-body .storysection .navsection nav .navwrapper ul li a:active {
-  color: #63cddb;
-  border-bottom: 2px solid #63cddb;
-}
-body .storysection .navsection nav .navwrapper ul li i {
-  font-size: 25px;
-}
-body .storysection .navsection nav .navwrapper ul li:hover {
-  color: #63cddb;
-}
-body .storysection .navsection nav .navwrapper ul li:hover a:hover {
-  color: #63cddb;
-}
-body .storysection .herostorysect {
+body .wholesection .herostorysect {
   position: relative;
 }
-body .storysection .herostorysect div {
+body .wholesection .herostorysect img {
+  width: 100%;
+}
+body .wholesection .herostorysect div {
   width: 27%;
   padding: 50px 40px;
   text-align: center;
@@ -59,64 +19,47 @@ body .storysection .herostorysect div {
   left: 20%;
   background-color: #63cddb;
 }
-body .storysection .herostorysect div p {
+body .wholesection .herostorysect div p {
   font-size: 3rem;
   font-weight: bold;
   width: 100%;
   color: black;
 }
-body .storysection .herostory2 {
+body .wholesection .herostory2 {
   position: relative;
 }
-body .storysection .herostory2 .watermelon {
+body .wholesection .herostory2 .watermelon {
   position: absolute;
   top: 48%;
   right: 25%;
   transform: translate(-50% -50%);
 }
-body .storysection .herostory2 .herostory2wrap {
+body .wholesection .herostory2 .herostory2wrap {
   max-width: 70%;
   margin: 0 auto;
   align-items: center;
 }
-body .storysection .herostory2 .herostory2wrap div {
+body .wholesection .herostory2 .herostory2wrap div {
   padding-left: 70px;
 }
-body .storysection .herostory2 .herostory2wrap div p {
+body .wholesection .herostory2 .herostory2wrap div p {
   width: 83%;
   line-height: 17px;
   font-size: 15px;
 }
-body .storysection footer {
-  background-color: #63cddb;
-}
-body .storysection footer .footerwrapper {
-  max-width: 30%;
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  justify-content: center;
-  padding: 40px 0;
-}
-body .storysection footer .footerwrapper h3 {
-  font-weight: 900;
-}
-body .storysection footer .footerwrapper form {
-  width: 100%;
-}
-body .storysection footer .footerwrapper .icondiv {
-  text-align: center;
-  justify-content: center;
-  color: white;
-}
-body .storysection footer .footerwrapper .icondiv i {
-  color: white;
-  font-size: 28px;
-  margin: 0 5px;
-}
 
+@media (max-width: 1200px) {
+  body .wholesection .herostory2 .herostory2wrap {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  body .wholesection .herostorysect div {
+    width: 35%;
+    padding: 60px 40px;
+    bottom: 6%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -549,7 +492,7 @@ body .wholesection footer .footerwrapper .icondiv i {
     text-align: center;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   body .wholesection footer .footerwrapper {
     max-width: 50%;
   }
