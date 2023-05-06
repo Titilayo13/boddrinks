@@ -9,10 +9,15 @@ body{
     
         .shophero{
             .shopherowrap{
-                max-width: 70%;
-                margin: 5% auto;
+                // max-width: 75%;
+                margin: 7% auto;
                 .shopherowrap1{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10%;
+                    // position: relative;
                     .shopherowrap1A{
+                        width: 20%;
                         p{
                             align-items: center;
                             a{
@@ -25,36 +30,48 @@ body{
                         }
                     }
                     .shopherowrap1B{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        width: 75%;
+                        
+                        
                         
                     .image-container {
                             position: relative;
-                            width: 50%;
+                            width: 48%;
                             overflow: hidden;
+                            text-align: center;
+                            // background-color: red;
+                            img{
+                                width: 100%;
+                            }
                             /* hides the overlay initially */
                         }
                     
                         .overlay {
                             position: absolute;
-                            bottom: -100%;
+                            width: 100%;
+                            bottom: -30%;
                             left: 0;
                             right: 0;
-                            background-color: rgba(0, 0, 0, 0.2);
+                            background-color: rgba(0, 0, 0, 0.1);
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            height: 20%;
-                            transition: bottom 1s;
+                            height: 10%;
+                            transition: bottom 1s ease;
                         }
                     
                         .overlay h6 {
                             color: black;
-                            font-weight: bold;
+                            // font-weight: bold;
                             opacity: 0;
-                            transition: opacity 1s;
+                            transition: opacity 1s ease;
                         }
                     
                         .image-container:hover .overlay {
-                            bottom: 0;
+                            bottom: 15%;
                         }
                     
                         .image-container:hover .overlay h6 {

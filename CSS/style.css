@@ -109,8 +109,15 @@ body .wholesection .herostory2 .herostory2wrap div p {
 }
 
 body .wholesection .shophero .shopherowrap {
-  max-width: 70%;
-  margin: 5% auto;
+  margin: 7% auto;
+}
+body .wholesection .shophero .shopherowrap .shopherowrap1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A {
+  width: 20%;
 }
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p {
   align-items: center;
@@ -122,32 +129,42 @@ body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p a {
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p span {
   font-size: 20px;
 }
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 75%;
+}
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container {
   position: relative;
-  width: 50%;
+  width: 48%;
   overflow: hidden;
+  text-align: center;
   /* hides the overlay initially */
+}
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container img {
+  width: 100%;
 }
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .overlay {
   position: absolute;
-  bottom: -100%;
+  width: 100%;
+  bottom: -30%;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20%;
-  transition: bottom 1s;
+  height: 10%;
+  transition: bottom 1s ease;
 }
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .overlay h6 {
   color: black;
-  font-weight: bold;
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 1s ease;
 }
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container:hover .overlay {
-  bottom: 0;
+  bottom: 15%;
 }
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container:hover .overlay h6 {
   opacity: 1;
