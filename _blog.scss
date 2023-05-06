@@ -17,7 +17,7 @@ body{
                         width: 50%;
                         padding: 0 30px;
                         a{
-                            color: black;
+                            color: rgb(100, 99, 99);
                             text-decoration: none;
                         }
                         .blogA{
@@ -38,6 +38,24 @@ body{
                                     line-height: 17px;
                                 }
                             }
+                        }
+                        .blogb{
+                            p{
+                                font-size: 18px;
+                            }
+                        }
+                        .blogb:hover{
+                            opacity: 0.6;
+                            transition: opacity 0.5 ease;
+                        }
+                        hr{
+                            margin-top: 20%;
+                        }
+                        p{
+                            display: flex;
+                            justify-content: space-between;
+                            font-size: 12px;
+                            align-items: center;
                         }
                     }
                 }
