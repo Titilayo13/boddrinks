@@ -331,7 +331,8 @@ body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B .blogA
   line-height: 17px;
 }
 body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B .blogb p {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }
 body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B .blogb:hover {
   opacity: 0.6;
