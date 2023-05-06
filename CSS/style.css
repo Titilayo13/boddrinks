@@ -227,10 +227,12 @@ body .wholesection .enquiry {
 }
 body .wholesection .enquiry .enquirywrap {
   position: relative;
+  height: auto;
   width: 100%;
 }
 body .wholesection .enquiry .enquirywrap .enquirywrap1 {
   width: 50%;
+  overflow: hidden;
   position: relative;
 }
 body .wholesection .enquiry .enquirywrap .enquirywrap1 .divopacity {
@@ -242,7 +244,6 @@ body .wholesection .enquiry .enquirywrap .enquirywrap1 .divopacity {
   left: 40%;
   margin-top: 20%;
   padding: 5% 0;
-  height: 80%;
 }
 body .wholesection .enquiry .enquirywrap .enquirywrap1 .divopacity p {
   text-align: end;
@@ -262,6 +263,32 @@ body .wholesection .enquiry .enquirywrap .enquirywrap2 h6 {
   font-weight: bolder;
 }
 
+@media (max-width: 700px) {
+  body .wholesection .enquiry .enquirywrap {
+    display: flex;
+    flex-direction: column;
+  }
+  body .wholesection .enquiry .enquirywrap .enquirywrap1 {
+    width: 100%;
+  }
+  body .wholesection .enquiry .enquirywrap .enquirywrap1 .divopacity {
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 5% 0;
+    margin-top: 5%;
+  }
+  body .wholesection .enquiry .enquirywrap .enquirywrap1 .divopacity p {
+    text-align: center;
+    padding: 0 30px;
+    font-size: 1.5rem;
+    margin: 50px 0;
+  }
+  body .wholesection .enquiry .enquirywrap .enquirywrap2 {
+    width: 100%;
+    padding: 13% auto;
+  }
+}
 * {
   margin: 0;
   padding: 0;
