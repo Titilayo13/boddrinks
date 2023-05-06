@@ -223,11 +223,10 @@ body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image
 
 body .wholesection .enquiry {
   width: 100%;
-  height: 120%;
+  height: auto;
 }
 body .wholesection .enquiry .enquirywrap {
   position: relative;
-  height: 100%;
   width: 100%;
 }
 body .wholesection .enquiry .enquirywrap .enquirywrap1 {
@@ -235,7 +234,7 @@ body .wholesection .enquiry .enquirywrap .enquirywrap1 {
   position: relative;
 }
 body .wholesection .enquiry .enquirywrap .enquirywrap1 .divopacity {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   width: 60%;
   height: 100%;
   position: absolute;
@@ -257,7 +256,6 @@ body .wholesection .enquiry .enquirywrap .enquirywrap1 img {
 body .wholesection .enquiry .enquirywrap .enquirywrap2 {
   background-color: #eb8383;
   width: 50%;
-  height: 100%;
   padding: 13% 8%;
 }
 body .wholesection .enquiry .enquirywrap .enquirywrap2 h6 {
