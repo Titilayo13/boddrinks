@@ -122,43 +122,35 @@ body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p a {
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1A p span {
   font-size: 20px;
 }
-body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap {
-  height: 350px;
-  width: 48%;
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  /* hides the overlay initially */
 }
-body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap img:hover {
-  cursor: pointer;
-}
-body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap img:hover ~ .overlay {
-  height: 50px;
-  opacity: 1;
-  visibility: visible;
-  transition: all 1s ease;
-}
-body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap img {
-  width: 100%;
-  height: 100%;
-}
-body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap .overlay {
-  height: 0px;
-  background-color: rgba(255, 255, 255, 0.6);
-  width: 24%;
-  text-align: center;
-  box-sizing: border-box;
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .overlay {
   position: absolute;
-  bottom: 14%;
-  visibility: hidden;
-  opacity: 0;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  transition: bottom 1s;
 }
-body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap .overlay h6 {
-  padding: 15px;
-}
-body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap p {
-  text-align: center;
-}
-body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .imagewrap p a {
-  text-decoration: none;
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .overlay h6 {
   color: black;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 1s;
+}
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container:hover .overlay {
+  bottom: 0;
+}
+body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container:hover .overlay h6 {
+  opacity: 1;
 }
 
 * {
