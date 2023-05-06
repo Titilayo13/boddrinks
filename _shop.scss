@@ -6,10 +6,9 @@
 
 body{
     .wholesection{
-    
         .shophero{
             .shopherowrap{
-                // max-width: 75%;
+                max-width: 75%;
                 margin: 7% auto;
                 .shopherowrap1{
                     display: flex;
@@ -42,9 +41,11 @@ body{
                             width: 48%;
                             overflow: hidden;
                             text-align: center;
+
                             // background-color: red;
                             img{
                                 width: 100%;
+                                // height: 90%;
                             }
                             /* hides the overlay initially */
                         }
@@ -52,7 +53,7 @@ body{
                         .overlay {
                             position: absolute;
                             width: 100%;
-                            bottom: -30%;
+                            bottom: -50%;
                             left: 0;
                             right: 0;
                             background-color: rgba(0, 0, 0, 0.1);
@@ -71,7 +72,7 @@ body{
                         }
                     
                         .image-container:hover .overlay {
-                            bottom: 15%;
+                            bottom: 18%;
                         }
                     
                         .image-container:hover .overlay h6 {
@@ -84,4 +85,108 @@ body{
     }
 
 }
+}
+
+
+
+@media (max-width:992px) {
+    body{
+        .wholesection{
+            .shophero{
+                .shopherowrap{
+                    max-width: 90%;
+                    margin: 10% auto;
+                    .shopherowrap1{
+                        width: 95%;
+                        .shopherowrap1B {
+                                width: 100%;
+                            }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+@media (max-width:800px) {
+    body {
+        .wholesection {
+            .shophero {
+                .shopherowrap {
+                    max-width: 95%;
+                    .shopherowrap1 {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width:600px) {
+    body {
+        .wholesection {
+            .shophero {
+                .shopherowrap {
+                    max-width: 90%;
+                    margin: 10% auto;
+
+                    .shopherowrap1 {
+                        width: 95%;
+
+                        .shopherowrap1B {
+                            width: 100%;
+                            .image-container{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width:400px) {
+    body{
+        .wholesection{
+            .shophero{
+                .shopherowrap{
+                    .shopherowrap1{
+                        .shopherowrap1B{
+                            
+                                .image-container:hover .overlay {
+                                        bottom: 25%;
+                                    }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:350px) {
+    body {
+        .wholesection {
+            .shophero {
+                .shopherowrap {
+                    .shopherowrap1 {
+                        .shopherowrap1B {
+
+                            .image-container:hover .overlay {
+                               opacity: 0;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -109,6 +109,7 @@ body .wholesection .herostory2 .herostory2wrap div p {
 }
 
 body .wholesection .shophero .shopherowrap {
+  max-width: 75%;
   margin: 7% auto;
 }
 body .wholesection .shophero .shopherowrap .shopherowrap1 {
@@ -148,7 +149,7 @@ body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .overlay {
   position: absolute;
   width: 100%;
-  bottom: -30%;
+  bottom: -50%;
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.1);
@@ -164,12 +165,57 @@ body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .overl
   transition: opacity 1s ease;
 }
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container:hover .overlay {
-  bottom: 15%;
+  bottom: 18%;
 }
 body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container:hover .overlay h6 {
   opacity: 1;
 }
 
+@media (max-width: 992px) {
+  body .wholesection .shophero .shopherowrap {
+    max-width: 90%;
+    margin: 10% auto;
+  }
+  body .wholesection .shophero .shopherowrap .shopherowrap1 {
+    width: 95%;
+  }
+  body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  body .wholesection .shophero .shopherowrap {
+    max-width: 95%;
+  }
+  body .wholesection .shophero .shopherowrap .shopherowrap1 {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  body .wholesection .shophero .shopherowrap {
+    max-width: 90%;
+    margin: 10% auto;
+  }
+  body .wholesection .shophero .shopherowrap .shopherowrap1 {
+    width: 95%;
+  }
+  body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B {
+    width: 100%;
+  }
+  body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container:hover .overlay {
+    bottom: 25%;
+  }
+}
+@media (max-width: 350px) {
+  body .wholesection .shophero .shopherowrap .shopherowrap1 .shopherowrap1B .image-container:hover .overlay {
+    opacity: 0;
+  }
+}
 * {
   margin: 0;
   padding: 0;
