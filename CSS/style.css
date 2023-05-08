@@ -348,6 +348,35 @@ body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B p {
   align-items: center;
 }
 
+@media (max-width: 1300px) {
+  body .wholesection .blogsection .blogwrapper {
+    max-width: 90%;
+  }
+  body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1A img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 890px) {
+  body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B .blogb h2 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 890px) {
+  body .wholesection .blogsection .blogwrapper .blogwrapper1 {
+    display: flex;
+    flex-direction: column;
+  }
+  body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1A {
+    width: 100%;
+  }
+  body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B {
+    width: 100%;
+    padding: 30px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
