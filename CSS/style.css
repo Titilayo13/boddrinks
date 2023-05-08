@@ -390,11 +390,10 @@ body .loginsection .loginwrapper {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
   height: 100%;
   max-width: 25%;
   margin: 0 auto;
-  gap: 30px;
+  gap: 20px;
   font-family: "Montserrat", sans-serif;
 }
 body .loginsection .loginwrapper span a {
@@ -406,8 +405,51 @@ body .loginsection .loginwrapper .google {
   width: 100%;
   padding: 10px;
 }
+body .loginsection .loginwrapper .google .bi {
+  color: yellow;
+  font-size: 20px;
+}
 body .loginsection .loginwrapper .google span {
   padding: 0 40px;
+}
+body .loginsection .loginwrapper .facebook {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #1878f2;
+}
+body .loginsection .loginwrapper .facebook .bi {
+  font-size: 20px;
+}
+body .loginsection .loginwrapper .facebook span {
+  padding: 0 40px;
+}
+body .loginsection .loginwrapper .orline {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+body .loginsection .loginwrapper .orline div {
+  border-bottom: 1px solid;
+  width: 45%;
+}
+body .loginsection .loginwrapper .email {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  text-align: center;
+}
+body .loginsection .checkk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  gap: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+body .loginsection .checkk a {
+  color: black;
 }
 
 * {
