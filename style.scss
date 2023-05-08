@@ -385,6 +385,7 @@ body{
                         .imagewrapper {
                             display: grid;
                             grid-template-columns: repeat(2, auto);
+                            gap: 20px 0;
                         }
             
                     }
@@ -407,6 +408,7 @@ body{
                         .imagewrapper {
                             display: grid;
                             grid-template-columns: repeat(1, auto);
+                            gap: 20px;
                         }
             
                     }

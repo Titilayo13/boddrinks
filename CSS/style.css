@@ -675,6 +675,7 @@ body .wholesection footer .footerwrapper .icondiv i {
   body .wholesection .instagram .instagramwrapper .imagewrapper {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    gap: 20px 0;
   }
 }
 @media (max-width: 400px) {
@@ -687,6 +688,7 @@ body .wholesection footer .footerwrapper .icondiv i {
   body .wholesection .instagram .instagramwrapper .imagewrapper {
     display: grid;
     grid-template-columns: repeat(1, auto);
+    gap: 20px;
   }
   body .wholesection .herootwo {
     height: 120%;
