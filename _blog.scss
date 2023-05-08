@@ -6,7 +6,7 @@ body{
     .wholesection{
         .blogsection{
             // background-color: aqua;
-            height: 100%;
+            // height: 100%;
             .blogwrapper{
                 max-width: 70%;
                 margin: 0 auto;
@@ -15,13 +15,11 @@ body{
                     border: 1px solid #e6e6e7;
                     .blogwrapper1A{
                         width: 50%;
-                        img{
-                            width: 100%;
-                        }
+                        
                     }
                     .blogwrapper1B{
                         width: 50%;
-                        padding: 0 30px;
+                        padding: 10px 30px;
                         a{
                             color: rgb(100, 99, 99);
                             text-decoration: none;

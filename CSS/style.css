@@ -294,9 +294,6 @@ body .wholesection .enquiry .enquirywrap .enquirywrap2 h6 {
   padding: 0;
 }
 
-body .wholesection .blogsection {
-  height: 100%;
-}
 body .wholesection .blogsection .blogwrapper {
   max-width: 70%;
   margin: 0 auto;
@@ -308,12 +305,9 @@ body .wholesection .blogsection .blogwrapper .blogwrapper1 {
 body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1A {
   width: 50%;
 }
-body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1A img {
-  width: 100%;
-}
 body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B {
   width: 50%;
-  padding: 0 30px;
+  padding: 10px 30px;
 }
 body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B a {
   color: rgb(100, 99, 99);
