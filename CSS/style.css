@@ -305,6 +305,12 @@ body .wholesection .blogsection .blogwrapper .blogwrapper1 {
   width: 100%;
   border: 1px solid #e6e6e7;
 }
+body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1A {
+  width: 50%;
+}
+body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1A img {
+  width: 100%;
+}
 body .wholesection .blogsection .blogwrapper .blogwrapper1 .blogwrapper1B {
   width: 50%;
   padding: 0 30px;
