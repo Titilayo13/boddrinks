@@ -397,6 +397,19 @@ body .loginsection .loginwrapper {
   gap: 30px;
   font-family: "Montserrat", sans-serif;
 }
+body .loginsection .loginwrapper span a {
+  text-decoration: none;
+  color: gray;
+}
+body .loginsection .loginwrapper .google {
+  border: 1px solid grey;
+  width: 100%;
+  padding: 10px;
+}
+body .loginsection .loginwrapper .google span {
+  padding: 0 40px;
+}
+
 * {
   margin: 0;
   padding: 0;
